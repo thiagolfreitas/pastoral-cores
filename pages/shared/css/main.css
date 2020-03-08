@@ -1,0 +1,221 @@
+/*------------- GLOBAL ---------------------*/
+html {
+    color: #212121;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    background: #FFF;
+    font-family: 'PT Serif', serif;
+}
+
+/*------------- BOOTSTRAP ----------------*/
+
+.badge-pill {
+    padding: .4rem .6rem;
+    border-radius: 10rem;
+}
+
+
+/*------------- MENU ACESSO --------------*/
+.menu-acesso {
+background-color :#A9A9A9;
+height: 34px;
+display: flex;
+align-items: center;
+}
+
+.menu-acesso ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+   
+}
+
+.menu-acesso ul li { 
+    display: inline; 
+    margin-left: 15px;
+    border-right: 1px solid #FFF;
+    padding-right: 15px;
+    font-size: .8rem;
+    color: #FFF;
+    font-weight: 480;
+}
+
+.menu-acesso__informacoes {
+    display: flex;
+    justify-content: start;
+}
+
+.menu-acesso__acessibilidade {
+    display: flex;
+    justify-content: end;
+}
+
+/*------------- NAV MENU ------------------*/
+
+.nav-menu {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.nav-menu__assinatura-principal {
+    justify-content: flex-start;
+}
+
+.nav-menu__dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+/*------------- PESQUISA ------------------*/
+
+.nav-menu__search-input {
+    margin:0;
+    padding: 0;
+}
+
+.nav-menu__search-input .nav-menu__search-query {
+     margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.nav-menu__search-input  button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 5px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color:#C4C4C4;
+}
+
+.search-query:focus + button {
+    z-index: 3;   
+}
+
+/*---------------- BOX SUBTITULO ---------------*/
+
+.substituto-box{
+    background-color:#E4E4E4;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.substituto-box__texto {
+    font-weight: 100;
+    color: #696969;
+}
+
+.substituto-box__image {
+     margin: 0 20px 0 0;
+}
+
+/*------------------ BOX CATEGORIA -------------*/
+
+.categoria {
+    height: auto;
+    background: #F3F3F3;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.categoria__box {
+    padding: 0;
+}
+
+.categoria__titulo span {
+  background-color: #6A6969;
+  padding: 4px;
+  color: #FFF;
+  font-size: .9rem;
+}
+
+.categoria__texto {
+  font-weight: 700;
+}
+
+.categoria__image {
+   position: relative;
+}
+
+.categoria__image img {
+  width: 100%;
+}
+
+.categoria__link {
+	position: absolute;
+	left: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
+.categoria__link a {
+	display: inline-block;
+	background-color: #6A6969;
+	color: #fff;
+    font-size: .8rem;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+.categoria__item{
+    border: 1px solid #eee;
+}
+
+/*----------------- ULTIMAS NOTICIAS ------------------*/
+
+
+.ultimas-noticias  .details p {
+    font-size:15px;
+    font-weight:bold;
+}
+
+.ultimas-noticias__image{
+    max-width: 255px;
+}
+
+.ultimas-noticias__image img {
+    width: 100%;
+}
+
+.ultimas-noticias__item {
+   
+    border-bottom: solid 1px #eee;
+    margin-bottom: 10px;
+    min-height: 168px;
+    padding: 20px 0;
+}
+
+/*----------------- MAIS ACESSADOS ------------------*/
+
+.mais-acessados__titulo {
+    font-size: .8rem;
+}
+
+.mais-acessados__texto {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.mais-acessados__data {
+    font-size: .8rem;
+    font-size: 100;
+}
+
+.mais-acessados__image img {
+    max-width: 95px;
+    border-radius: 10px;
+}

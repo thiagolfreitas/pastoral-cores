@@ -71,6 +71,10 @@ align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
 }
 
+.nav-menu__item {
+    display: flex;
+}
+
 .nav-menu__assinatura-principal {
     justify-content: flex-start;
 }
@@ -234,7 +238,7 @@ align-items: center;
 }
 
 .ultimas-noticias__titulo-box {
-    margin: 40px 0 20px 0;
+    margin: 40px 0 20px -15px;
 }
 
 /*----------------- MAIS ACESSADOS ------------------*/
@@ -285,25 +289,26 @@ align-items: center;
 
 /*---------- ULTIMOS ARTIGOS --------------*/
 
-.ultimos-artigos__image {
-  
+.ultimos-artigos:last-child {
+    border-bottom: 1px solid #DDD;
+    padding: 30px 0;
 }
 
 .ultimos-artigos__titulo-box {
-    margin: 40px 0  20px 0 ;
+    margin: 40px 0  20px -15px;
 }
 
 .ultimos-artigos__texto {
     font-size:1.2rem;
     font-weight: 600;
-    text-align: justify;
+    text-align: left;
     padding: 10px;
 } 
 
 .ultimos-artigos__bloco-rodape {
     display: flex;
-    justify-content: space-between;
     margin-right: 8px;
+    padding: 8px;
     
 }
 
@@ -321,6 +326,7 @@ align-items: center;
 .ultimos-artigos__nome{
     font-size: .7rem;
     color: #8E8C8C;
+    margin-right: 20px;
 }
 
 .ultimos-artigos__data {
@@ -331,4 +337,27 @@ align-items: center;
 .ultimos-artigos__box {
     padding: 0 20px 0 0;
     text-align: center;
+}
+
+
+/*--------- PUBLICIDADE BLOCO ---------------*/
+
+.publicidade-bloco__img {
+    background-position: center; 
+    background-size: cover;
+}
+
+.publicidade-bloco {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+/*-----PAGINACAO-----*/
+
+.pagination {
+    justify-content: center!important;
+    padding-top: 30px;
+   
 }

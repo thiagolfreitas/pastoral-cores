@@ -120,19 +120,19 @@ body {
 
 /*---------------- BOX SUBTITULO ---------------*/
 
-.substituto-box {
+.subtitulo-box {
     background-color:#E4E4E4;
     height: 110px;
     display: flex;
     align-items: center;
 }
 
-.substituto-box__texto {
+.subtitulo-box__texto {
     font-weight: 100;
     color: #696969;
 }
 
-.substituto-box__image {
+.subtitulo-box__image {
      margin: 0 20px 0 0;
 }
 

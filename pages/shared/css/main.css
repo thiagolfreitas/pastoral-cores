@@ -455,6 +455,12 @@ body {
       font-size: 2.25rem;
       color: #FFF;
     }
+
+    .categoria-multimidia__texto p {
+        color:#FFF;
+        font-size: 18px;
+        font-weight: normal;
+    }
   
  /*--------- MULTIMIDIA RECOMENDAMOS  -------------*/
 
@@ -467,12 +473,12 @@ body {
 
 
     .multimidia-recomendamos--box:last-child {
-        border-bottom: 1px solid #DDD;
         padding: 30px 0;
     }
     
     .multimidia-recomendamos--box__titulo-box {
         margin: 10px 0  10px -15px;
+        font-weight: 600;
     }
     
     .multimidia-recomendamos--box__texto {
@@ -528,6 +534,7 @@ body {
     
     .multimidia-ultimos-videos--box__titulo-box {
         margin: 10px 0  10px -15px;
+        font-weight: 600;
     }
     
     .multimidia-ultimos-videos--box__texto {
@@ -570,4 +577,79 @@ body {
     .multimidia-ultimos-videos--box__box {
         padding: 0 20px 0 0;
         text-align: center;
+    }
+
+    .multimidia__ver-tudo {
+        display: flex;
+        justify-content: end;
+    }
+
+    /*------------MULTIMIDIA BLOCO COMPLETO--------------------*/
+
+    .multimidia-bloco-completo {
+        background-color: #F7F7F7;
+        display: flex;
+    }
+
+    .multimidia-bloco-completo__img {
+        object-fit: cover;
+        background-position: center; 
+        background-size: cover;
+    }
+
+    .multimidia-bloco-completo img {
+        align-items: center;
+        width: 100%;
+       
+    }
+
+    /*--------------MULTIMIDIA NOME CATEGORIA --------------------*/
+    
+    .multimidia-nome-categoria--box:last-child {
+        border-bottom: 1px solid #DDD;
+        padding: 30px 0;
+    }
+    
+    .multimidia-nome-categoria--box__titulo-box {
+        margin: 10px 0  10px -15px;
+        font-weight: 600;
+    }
+    
+    .multimidia-nome-categoria--box__texto {
+        font-size:1.125rem;
+        font-weight: 600;
+        text-align: left;
+        padding: 15px;
+        position:absolute;
+        bottom: 0; 
+        color: #FFF;
+        width: 100%;
+    } 
+    
+    .multimidia-nome-categoria--box__bloco-rodape {
+        display: flex;
+        margin-right: 8px;
+        padding: 8px;  
+    }
+
+    
+    .multimidia-nome-categoria--box__nome {
+        font-size: .7rem;
+        color: #8E8C8C;
+        margin-right: 20px;
+    }
+    
+    .multimidia-nome-categoria--box__data {
+        font-size: .7rem;
+        color: #8E8C8C;
+    }
+    
+    .multimidia-nome-categoria--box__box {
+        padding: 0 20px 0 0;
+        text-align: center;
+    }
+
+    .multimidia__ver-tudo {
+        display: flex;
+        justify-content: end;
     }

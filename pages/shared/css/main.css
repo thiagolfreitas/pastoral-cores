@@ -753,6 +753,12 @@ body {
         margin-top: 40px;
     }
 
+    .post-full__titulo-bloco {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+
      /*----------POST-FULL LIST-------------*/
 
     ul.post-full__list-categoria{
@@ -775,6 +781,20 @@ body {
     .post-full__publicidade {
 
     }
+
+     /*----------POST-FULL RELACIONADO-------------*/
+
+     .post-full__post-relacionado-titulo {
+         margin: 30px 0 20px 0; 
+         font-size: 24px;
+         font-weight: 600;
+     }
+
+     .post-full__post-relacionado-texto {
+         font-size: 18px;
+         font-weight: 600;
+         color: #383838;
+     }
 
 
     /*----------POST-FULL COMENTARIOS-------------*/
@@ -815,6 +835,30 @@ body {
     .post-full__comentarios-bloco-topo-box-informacoes {
         padding-left: 30px;
         margin-left: 40px;
+    }
+
+    /*-------------- SIDEBAR ----------------------*/
+
+    .sidebar {
+        margin-top: 90px;
+    }
+    
+    .sidebar__titulo-topo {
+        font-size:36px;
+        font-weight: 600;
+    }
+
+    .sidebar__texto-topo {
+        font-size: 18px;
+    color: #858585;
+    }
+
+    .sidebar__bloco-final {
+        margin-top:45px;
+    }
+
+    .section.categoria-importante.sidebar {
+        margin-top: 130px;
     }
 
  

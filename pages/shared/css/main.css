@@ -212,9 +212,16 @@ li.list-group-item {
 	color: #C4C4C4;
 }
 
+.nav-menu__search-input button.btn {
+    display: block;
+    z-index: 9999;
+}
+
+/*
 .search-query:focus+button {
 	z-index: 3;
 }
+*/
 
 
 /*---------------- BOX SUBTITULO ---------------*/

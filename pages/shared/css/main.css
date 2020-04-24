@@ -9,7 +9,7 @@ html {
 body {
 	background: #FFF;
 	/*font-family: 'PT Serif', serif;*/
-	font-family: 'Nunito Sans', sans-serif !important;
+	font-family: 'Nunito Sans'!important;
 }
 
 .navbar-topo {
@@ -23,6 +23,94 @@ img.icon-libras{
 
 .border-section {
 	border-bottom: 1px solid #E7E7E7;
+}
+
+a {
+	color:#6A6969 !important;
+}
+
+
+/*----------------- ESTILO LINK ----------------*/
+
+
+
+/*------------------ FONTS --------------------*/
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLight.ttf");
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-weight: 900;
 }
 
 
@@ -91,7 +179,7 @@ img.icon-libras{
 .navbar-light .navbar-nav .nav-link {
 	color: #444343;
 	font-size: 14px;
-	font-weight:600;
+	font-weight:700;
 }
 
 button.btn.btn-danger {
@@ -644,14 +732,20 @@ li.list-group-item {
 }
 
 .home__categoria__texto h3 {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1.6rem;
 	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 	color: #FFF;
 }
 
+.home__categoria__texto h3, .home__categoria__texto-menor h3:hover {
+	text-decoration: underline;
+	color: #FFF;
+	cursor: pointer;
+}
+
 .home__categoria__texto-menor h3 {
-	font-weight: 500;
+	font-weight: bold;
 	font-size: 18px;
 	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 	color: #FFF;
@@ -740,11 +834,16 @@ li.list-group-item {
 .home__eixos-noticias-titulo {
 	width: 205px;
 	float: right;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 1.4;
 	font-size: 15px;
 	color: #444343;
 	margin-left: 15px;
+	cursor: pointer;
+}
+
+.home__eixos-noticias-titulo:hover {
+	text-decoration: underline;
 }
 
 .home__eixos-noticias img {
@@ -774,7 +873,7 @@ li.list-group-item {
 }
 
 .home-artigos-item__titulo {
-	font-weight: 600;
+	font-weight: 800;
 }
 
 .home-artigos-link {
@@ -876,6 +975,7 @@ li.list-group-item {
 	color: #6A6969;
 	text-align: center;
 	margin-top: 20px;
+	font-weight: 600;
 }
 
 .home-regionais__editor {
@@ -951,11 +1051,13 @@ li.list-group-item {
 	font-size: 12px;
 	color: #6A6969;
 	margin-top: 10px;
+	font-weight: 600;
 }
 
 .home-videos-box-texto {
 	font-size: 17px;
 	margin-top: 5px;
+	color:#000;
 }
 
 
@@ -976,6 +1078,7 @@ li.list-group-item {
 .home-podcast-box-texto {
 	font-size: 17px;
 	margin-top: 5px;
+	color: #000;
 }
 
 .home-podcast__box-item {
@@ -1076,8 +1179,8 @@ li.list-group-item {
 	font-size: 13px;
 	color: #444343;
 	font-weight: 100;
+	cursor: pointer;
 }
-
 
 /*--- HOME CATEGORIA FOOTER ----*/
 
@@ -1088,6 +1191,7 @@ li.list-group-item {
 
 .home-categoria__footer-titulo {
 	font-size: 18px;
+
 }
 
 .home-categoria__border {
@@ -1111,6 +1215,14 @@ li.home-categoria__footer-item {
 	color: #444343;
 }
 
+.home-categoria__footer-titulo-link {
+	cursor: pointer;
+}
+
+.home-categoria__footer-titulo h2 a{
+	font-size: 18px;
+	color: #000 !important;
+}
 
 /*HOME FOOTER */
 

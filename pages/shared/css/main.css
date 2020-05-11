@@ -1061,11 +1061,12 @@ p.subtitulo-box__texto-box {
 .home-eventos-box-texto {
 	font-family: 'PT Sans';
 	color: #8C8C8C;
-	font-size: 0.875rem;
+  font-size: 0.875rem;
+  line-height: 19px;
 }
 
 .home-eventos__box-imagem {
-  max-height: 270px;
+  max-height: 260px;
   object-fit: cover;
   width: 100%;
 }

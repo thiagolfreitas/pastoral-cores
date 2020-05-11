@@ -818,6 +818,10 @@ p.subtitulo-box__texto-box {
 	border: 1px solid #eee;
 }
 
+.home__categoria__item--principal-big img {
+  max-height: 385px;
+  width: 100%;
+}
 
 /* --- HOME EIXOS ---- */
 
@@ -1060,6 +1064,11 @@ p.subtitulo-box__texto-box {
 	font-size: 0.875rem;
 }
 
+.home-eventos__box-imagem {
+  max-height: 270px;
+  object-fit: cover;
+  width: 100%;
+}
 
 /* ---- HOME VIDEOS --- */
 
@@ -1222,7 +1231,8 @@ p.subtitulo-box__texto-box {
 	font-size: 14px;
 	color: #444343;
 	font-weight: bold;
-	margin-bottom: 3px;
+  margin-bottom: 3px;
+  line-height: 16px;
 }
 
 .home__guia-implatacao-link {

@@ -773,6 +773,9 @@ p.subtitulo-box__texto-box {
 
 .home__categoria__image img {
 	width: 100%;
+	max-height: 180px;
+	object-fit: cover;
+	height: 100%;
 }
 
 .home__categoria__categoria {
@@ -819,7 +822,7 @@ p.subtitulo-box__texto-box {
 }
 
 .home__categoria__item--principal-big img {
-  max-height: 383px;
+  max-height: 380px;
   width: 100%;
 }
 

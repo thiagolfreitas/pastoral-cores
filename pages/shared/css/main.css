@@ -401,7 +401,7 @@ li.list-group-item {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	padding: 30px;
+	padding: 15px 30px;
 }
 
 .categoria__categoria span {
@@ -603,7 +603,7 @@ p.subtitulo-box__texto-box {
 	font-weight: bold;
 	text-align: left;
 	padding: 10px 10px 0 10px;
-	margin: 17px 17px 0 0;
+	margin: 12px 17px 0 0;
 }
 
 

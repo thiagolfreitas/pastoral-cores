@@ -509,7 +509,6 @@ p.subtitulo-box__texto-box {
     border-bottom: 1px solid #D1D1D1;
 }
 
-
 /*----------------- MAIS ACESSADOS ------------------*/
 
 .mais-acessados__categoria {
@@ -734,7 +733,6 @@ p.subtitulo-box__texto-box {
 .categoria-importante__badge-pill-yellow {
 	background-color: #FFCF6F;
 }
-
 
 /*------------------------------------------ HOME ---------------------------------------*/
 
@@ -1365,18 +1363,19 @@ ul.home__footer-informacoes-lista {
 	position: absolute;
 	left: 0;
 	bottom: 10px;
-	padding: 60px;
-	max-width: 825px;
+	padding: 50px 60px;
+	max-width: 850px;
 }
 
 .categoria-multimidia__categoria span {
 	display: inline-block;
 	background-color: #6A6969;
 	color: #fff;
-	font-size: .7rem;
+	font-size: 12px;
 	text-transform: uppercase;
-	padding: 3px;
-	margin-bottom: 20px;
+	padding: 2px 5px;
+	margin-bottom: 3px;
+	font-weight: bold;
 }
 
 .categoria-multimidia__titulo span {
@@ -1387,12 +1386,12 @@ ul.home__footer-informacoes-lista {
 }
 
 .categoria-multimidia__texto h2 {
-	font-weight: 600;
-	font-size: 2.25rem;
+	font-weight: bold;
+	font-size: 36px;
 	color: #FFF;
 }
 
-.categoria-multimidia__texto p {
+.categoria-multimidia__texto > p {
 	color: #FFF;
 	font-size: 18px;
 	font-weight: normal;
@@ -1415,12 +1414,13 @@ ul.home__footer-informacoes-lista {
 
 .multimidia-recomendamos--box__titulo-box {
 	margin: 10px 0 10px -15px;
-	font-weight: 600;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .multimidia-recomendamos--box__texto {
-	font-size: 1.2rem;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: bold;
 	text-align: left;
 	padding: 10px;
 }
@@ -1438,10 +1438,11 @@ ul.home__footer-informacoes-lista {
 	display: inline-block;
 	background-color: #6A6969;
 	color: #fff;
-	font-size: .7rem;
+	font-size: 12px;
 	text-transform: uppercase;
-	padding: 3px;
-	margin: 15px 10px;
+	padding: 2px 5px;
+	margin: 17px 13px;
+	font-weight: bold;
 }
 
 .multimidia-recomendamos--box__nome {
@@ -1470,12 +1471,13 @@ ul.home__footer-informacoes-lista {
 
 .multimidia-ultimos-videos--box__titulo-box {
 	margin: 10px 0 10px -15px;
-	font-weight: 600;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .multimidia-ultimos-videos--box__texto {
-	font-size: 1.2rem;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: bold;
 	text-align: left;
 	padding: 10px;
 }
@@ -1488,15 +1490,16 @@ ul.home__footer-informacoes-lista {
 
 .multimidia-ultimos-videos--box__categoria {
 	position: absolute;
-	top: 0;
-	left: 0;
-	display: inline-block;
-	background-color: #6A6969;
-	color: #fff;
-	font-size: .7rem;
-	text-transform: uppercase;
-	padding: 3px;
-	margin: 15px 10px;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    background-color: rgb(106, 105, 105);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2px 5px;
+    margin: 17px 13px;
 }
 
 .multimidia-ultimos-videos--box__nome {
@@ -1549,18 +1552,20 @@ ul.home__footer-informacoes-lista {
 
 .multimidia-nome-categoria--box__titulo-box {
 	margin: 10px 0 10px -15px;
-	font-weight: 600;
+	font-weight: bold;
+	font-size:18px;
 }
 
 .multimidia-nome-categoria--box__texto {
-	font-size: 1.125rem;
-	font-weight: 600;
-	text-align: left;
-	padding: 15px;
-	position: absolute;
-	bottom: 0;
-	color: #FFF;
-	width: 100%;
+	font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    max-width: 260px;
+    padding: 10px 19px;
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
 }
 
 .multimidia-nome-categoria--box__bloco-rodape {

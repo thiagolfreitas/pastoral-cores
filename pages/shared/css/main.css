@@ -1357,9 +1357,9 @@ ul.home__footer-informacoes-lista {
 
 .categoria-multimidia__categoria {
 	position: absolute;
-	left: 0;
+	left: 148px;
 	bottom: 10px;
-	padding: 50px 60px;
+	padding: 50px 0 44px 0;
 	max-width: 850px;
 }
 
@@ -1405,11 +1405,11 @@ ul.home__footer-informacoes-lista {
 /*--------- MULTIMIDIA RECOMENDAMOS BOX  -------------*/
 
 .multimidia-recomendamos--box:last-child {
-	padding: 30px 0;
+	padding: 20px 0 16px 0;
 }
 
 .multimidia-recomendamos--box__titulo-box {
-	margin: 10px 0 10px -15px;
+	margin: 10px 0 15px -15px;
 	font-weight: bold;
 	font-size: 18px;
 }
@@ -1457,16 +1457,40 @@ ul.home__footer-informacoes-lista {
 	text-align: center;
 }
 
+.multimidia-ultimos-videos--box__image img, 
+.multimidia-recomendamos--box__image img {
+	max-height: 140px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
 
 /*--------- MULTIMIDIA  VÍDEOS  -------------*/
 
-.multimidia-ultimos-videos--box:last-child {
-	border-bottom: 1px solid #DDD;
+.multimidia-ultimos-videos--box {
 	padding: 30px 0;
 }
 
+.multimidia-ultimos-podcast--box {
+	padding: 30px 0 56px 0;
+}
+
+.multimidia-ultimos-videos--box-border:last-child {
+	border-bottom: 1px solid #DDD;
+	padding: 15px 0 39px 0;
+}
+
 .multimidia-ultimos-videos--box__titulo-box {
-	margin: 10px 0 10px -15px;
+	margin: 0 0 0 -15px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+.multimidia-ultimos-podcast--box__titulo-box {
+	margin: 0 0 20px -15px;
 	font-weight: bold;
 	font-size: 18px;
 }
@@ -1541,9 +1565,8 @@ ul.home__footer-informacoes-lista {
 
 /*--------------MULTIMIDIA NOME CATEGORIA --------------------*/
 
-.multimidia-nome-categoria--box:last-child {
-	border-bottom: 1px solid #DDD;
-	padding: 30px 0;
+.multimidia-nome-categoria--box {
+	padding: 17px 0;
 }
 
 .multimidia-nome-categoria--box__titulo-box {

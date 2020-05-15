@@ -899,7 +899,6 @@ p.subtitulo-box__texto-box {
 	font-size: 13px;
 }
 
-
 /* --- HOME ARTIGOS ---- */
 
 .home-artigos__titulos {
@@ -1219,9 +1218,6 @@ p.subtitulo-box__texto-box {
 /* HOME NEWSLETTER */
 
 .home-newsletter-box {
-	background-color: #004777;
-	height: 238px;
-	width: 100%;
 	background-color: #004777;
 	height: 238px;
 	width: 100%;
@@ -1837,6 +1833,7 @@ li.post-full__list-item:last-child {
 	.home-regionais-img img {
 		width: 100%;
 		object-fit: cover;
+		margin-top: 20px;
 	}
 
 	.home-regionais-box-categoria span {
@@ -1867,13 +1864,96 @@ li.post-full__list-item:last-child {
 	.home-videos-img img {
 		width: 100%;
 	}
-	
-	.{
-		position: relative;
+
+	.home-podcast-topo__img img {
+		width: 100%;
+	}
+
+	.home__footer-box {
+		height: auto;
+		padding: 20px;
+	}
+
+	.home__footer-img{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.home__footer-informacoes-direitos {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.home__footer-informacoes-lista {
 		display: flex;
-		top: -37px;
-		display: inline-block;
-		padding-right: 17px;
-		left: 20px;
+		text-align: center;
+	}
+
+	.home__footer-rede-sociais {
+		text-align: center;
+	}
+
+	.home-podcast__link {
+		width: 27%;
+	}
+
+	.home__eixos-box img {
+		width: 100%;
+	}
+
+	.home-artigos-item__img img {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: cover;
+	}
+
+	.home-categoria__footer-box {
+		width: 100%;
+	}
+
+	.home__guia-implatacao-img img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+
+	.home__guia-implatacao-texto {
+		text-align: center;
+	}
+
+	.home__guia-implatacao-link {
+		text-align: center;
+	}
+
+	.home__categoria {
+		padding: 15px;
+	}
+
+	.home-eventos-box-titulo {
+		text-align: center;
+	}
+
+	.home-newsletter-box{
+		padding: 25px 20px;
+		height: 300px;
+	}
+
+	.navbar-topo {
+		height: auto;
+	}
+
+	.menu-acesso__informacoes {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.menu-acesso ul li {
+		display: inherit;
+		margin: 0 15px 20px 0;
+		border-right: 1px solid #FFF;
+		padding-right: 15px;
+		font-size: .8rem;
+		color: #FFF;
+		font-weight: 480;
 	}
 }

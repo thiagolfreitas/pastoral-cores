@@ -1345,6 +1345,8 @@ ul.home__footer-informacoes-lista {
 
 /*--------- CATEGORIA MULTIMIDIA TOPO -------------*/
 
+
+
 .categoria-multimidia__image img {
 	display: block;
 	width: 100%;
@@ -1357,8 +1359,9 @@ ul.home__footer-informacoes-lista {
 
 .categoria-multimidia__categoria {
 	position: absolute;
-	transform: translate(-79%, -125%);
-    left: 50%;
+    bottom: 0;
+	width: 100%;
+	margin: 0 0 3% -1%;	
 	max-width: 850px;
 }
 

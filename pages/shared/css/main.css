@@ -1357,9 +1357,8 @@ ul.home__footer-informacoes-lista {
 
 .categoria-multimidia__categoria {
 	position: absolute;
-	left: 148px;
-	bottom: 10px;
-	padding: 50px 0 44px 0;
+	transform: translate(-79%, -125%);
+    left: 50%;
 	max-width: 850px;
 }
 

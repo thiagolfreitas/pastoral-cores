@@ -36,6 +36,10 @@ a {
 	color:#6A6969;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
+
 
 /*----------------- ESTILO LINK ----------------*/
 
@@ -414,6 +418,8 @@ li.list-group-item {
 	font-weight: bold;
 	padding: 1px 8px;
 	border-radius: 3px;
+	text-transform: uppercase;
+	;
 }
 
 .categoria__item {

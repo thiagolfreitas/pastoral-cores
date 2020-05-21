@@ -512,7 +512,8 @@ p.subtitulo-box__texto-box {
     color: #515151;
     font-weight: bold;
     font-size: 18px;
-    border-bottom: 1px solid #D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	text-transform: uppercase;
 }
 
 /*----------------- MAIS ACESSADOS ------------------*/
@@ -602,7 +603,8 @@ p.subtitulo-box__texto-box {
 	color: #515151;
     font-weight: bold;
     font-size: 18px;
-    border-bottom: 1px solid #D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	text-transform: uppercase;
 }
 
 .ultimos-artigos__texto {

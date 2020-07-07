@@ -846,7 +846,6 @@ p.subtitulo-box__texto-box {
 	font-weight: bold;
 }
 
-
 .home__categoria__categoria span {
 	display: inline-block;
 	background-color: #6A6969;
@@ -856,16 +855,17 @@ p.subtitulo-box__texto-box {
 	padding: 1px 4px;
 	text-transform: uppercase;
 	font-weight: bold;
-
-}
-
-.home__categoria__item {
-	border: 1px solid #eee;
 }
 
 .home__categoria__item--principal-big img {
   max-height: 380px;
   width: 100%;
+}
+
+.home__categoria__item {
+	border: none;
+	max-width: 95.4%;
+	width: 100%;
 }
 
 /* --- HOME EIXOS ---- */

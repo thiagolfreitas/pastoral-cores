@@ -1380,6 +1380,9 @@ ul.home__footer-informacoes-lista {
 	display: block;
 	width: 100%;
 	height: 416px;
+	/*Aguardando o layout
+	-webkit-mask-image: linear-gradient(rgb(0, 0, 0), transparent);
+  mask-image: linear-gradient(rgb(0, 0, 0), transparent); */
 }
 
 .categoria-multimidia__image cover {
@@ -1412,13 +1415,14 @@ ul.home__footer-informacoes-lista {
 	font-size: .9rem;
 }
 
-.categoria-multimidia__texto h2 {
+.categoria-multimidia__texto h2 a {
 	font-weight: bold;
 	font-size: 36px;
 	color: #FFF;
 }
 
-.categoria-multimidia__texto > p {
+
+.categoria-multimidia__texto p a {
 	color: #FFF;
 	font-size: 18px;
 	font-weight: normal;
